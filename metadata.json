@@ -1,0 +1,8 @@
+{
+  "name": "Campus Nexus",
+  "description": "Smart Campus, Student Services & Institutional Intelligence — One Campus. One Platform. Real-Time Intelligence.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

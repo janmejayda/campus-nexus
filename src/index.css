@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+:root {
+  --bg-campus: #081820;
+  --card-main: #0D222B;
+  --surface-secondary: #12313B;
+  --aqua-accent: #35D6E8;
+  --aqua-light: #6EEAF5;
+  --text-primary: #D9F7FA;
+  --text-secondary: #91B8C0;
+  --text-muted: #66848C;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  background-color: #081820;
+  color: #D9F7FA;
+  min-height: 100vh;
+}
+
+/* Custom scrollbar for data tables and panels */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #081820;
+}
+::-webkit-scrollbar-thumb {
+  background: #12313B;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #35D6E8/40;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
